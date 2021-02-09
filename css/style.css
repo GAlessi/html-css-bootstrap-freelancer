@@ -1,0 +1,42 @@
+/* Regole di debug */
+[class*="col-"] {
+  background-color: red;
+  border: 1px solid black;
+}
+
+
+/* Regole generali */
+.centratura{
+    width: 80%;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 1199px) {
+    .centratura{
+        width: 90%;
+    }
+}
+
+/* Regole nav */
+nav{
+    background: darkblue;
+}
+
+nav [class*="col-"]{
+    height: 50px;
+}
+
+nav li{
+    display: inline-block;
+}
+
+/* Regole jumbotron */
+.ms_jumbotron{
+    height: 400px;
+    background-color: green;
+    padding: 50px 0;
+}
+
+.ms_jumbotron [class*="col-"]{
+    height: 300px;
+}
