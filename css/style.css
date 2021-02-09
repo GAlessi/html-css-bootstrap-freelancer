@@ -40,3 +40,21 @@ nav li{
 .ms_jumbotron [class*="col-"]{
     height: 300px;
 }
+
+/* Regole Main */
+.portfolio{
+    height: 600px;
+}
+.info{
+    height: 300px;
+    background-color: green;
+}
+.form{
+    height: 600px;
+}
+
+
+footer{
+    height: 200px;
+    background-color: darkblue;
+}
