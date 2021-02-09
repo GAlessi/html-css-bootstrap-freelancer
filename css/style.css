@@ -42,8 +42,17 @@ nav li{
 }
 
 /* Regole Main */
+
+/* Portfolio */
 .portfolio{
-    height: 600px;
+    padding: 50px 0;
+}
+
+.portfolio [class*="col-"]{
+    height: 100px;
+}
+.portfolio .centratura [class*="col-"]{
+    height: 200px;
 }
 .info{
     height: 300px;
