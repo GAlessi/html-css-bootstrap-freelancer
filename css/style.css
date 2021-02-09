@@ -6,16 +6,7 @@
 
 
 /* Regole generali */
-.centratura{
-    width: 80%;
-    margin: 0 auto;
-}
 
-@media all and (max-width: 1199px) {
-    .centratura{
-        width: 90%;
-    }
-}
 
 /* Regole nav */
 nav{
@@ -44,24 +35,34 @@ nav li{
 /* Regole Main */
 
 /* Portfolio */
-.portfolio{
+.portfolio, .info, .form{
     padding: 50px 0;
 }
 
-.portfolio [class*="col-"]{
-    height: 100px;
-}
-.portfolio .centratura [class*="col-"]{
+.portfolio .container [class*="col-"]{
     height: 200px;
 }
+
+/* informazioni */
 .info{
-    height: 300px;
     background-color: green;
 }
+.info [class*="col-"]{
+    height: 50px;
+}
+
+.info .centratura [class*="col-"]{
+    height: 100px;
+}
+
+/* form */
 .form{
     height: 600px;
 }
 
+.form [class*="col-"]{
+    height: 500px;
+}
 
 footer{
     height: 200px;
