@@ -1,8 +1,3 @@
-/* Regole di debug */
-[class*="col-"] {
-  background-color: red;
-  border: 1px solid black;
-}
 
 /* Regole generiche di pagina */
 .ms_jumbotron, .portfolio, .info, .form, .pre_footer{
@@ -111,12 +106,8 @@ h1{
     font-size: 3em;
     font-weight: bold;
 }
+
 /* Portfolio */
-
-.portfolio [class*="col-"]{
-    /* height: 200px; */
-}
-
 .portfolio img{
     width: 100%;
     height: auto;
@@ -124,23 +115,20 @@ h1{
     margin: 20px 0;
 }
 
-
 /* informazioni */
 .info{
     background-color: #1abc9c;
 }
 
-.info [class*="col-"]{
-    height: 300px;
-}
-
-.info .intestazione_sezioni h2{
+.info .intestazione_sezioni h2,.info .scritte{
     color: white;
 }
 
 /* form */
 .form [class*="col-"]{
     height: 500px;
+    background-color: red;
+    border: 1px solid black;
 }
 
 /* footer */
@@ -151,6 +139,8 @@ h1{
 
 .pre_footer [class*="col-"]{
     height: 100px;
+    background-color: red;
+    border: 1px solid black;
 }
 
 footer{
