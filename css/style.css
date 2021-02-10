@@ -1,3 +1,9 @@
+/* modifiche media */
+@media all and (min-width: 700px ) and (max-width: 992px) {
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+}
 
 /* Regole generiche di pagina */
 .ms_jumbotron, .portfolio, .info, .form, .pre_footer{
@@ -141,10 +147,24 @@ h1{
 }
 
 /* form */
-.form [class*="col-"]{
-    height: 500px;
-    background-color: red;
-    border: 1px solid black;
+form input{
+    display: block;
+    width: 100%;
+    height: 100px;
+    font-size: 2em;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 1px solid lightgrey;
+}
+
+.messaggio{
+    height: 300px;
+}
+
+form .bottone{
+    margin-top: 20px;
+    background-color: #1abc9c;
 }
 
 /* footer */
