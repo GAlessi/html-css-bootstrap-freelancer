@@ -207,6 +207,11 @@ form .bottone{
     padding: 15px 18px;
 }
 
+.icone i:hover{
+    background-color: white;
+    color:  #2c3e50;
+}
+
 footer{
     background-color: black;
     text-align: center;
