@@ -4,26 +4,50 @@
   border: 1px solid black;
 }
 
+/* Regole generiche di pagina */
 .ms_jumbotron, .portfolio, .info, .form, .pre_footer{
     padding: 50px 0;
 }
 
+
 /* Regole nav */
-nav{
-    background: darkblue;
+header .navbar-default .navbar-collapse{
+    background-color: #2c3e50;
 }
 
-nav [class*="col-"]{
-    height: 50px;
+header .navbar-default .navbar-brand {
+    color: white;
+    font-weight: 700;
+}
+header .navbar-default{
+    background: #2c3e50;
+    border: 0;
 }
 
-nav li{
-    display: inline-block;
+header .navbar-brand{
+    font-size: 1.7em;
+    line-height: 70px;
+    height: auto;
+}
+
+.navbar-default .navbar-nav>li>a{
+    line-height: 70px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+@media all and (max-width: 1199px) {
+    .navbar-default .navbar-nav>li>a{
+        font-size: 1em;
+    }
 }
 
 /* Regole jumbotron */
 .ms_jumbotron{
     background-color: green;
+    margin-top: 100px;
+    height: 500px;
 }
 
 .ms_jumbotron [class*="col-"]{
