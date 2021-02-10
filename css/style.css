@@ -118,10 +118,26 @@ h1{
 /* informazioni */
 .info{
     background-color: #1abc9c;
+    text-align: center;
+    color: white;
 }
 
-.info .intestazione_sezioni h2,.info .scritte{
+.info .scritte{
+    text-align: left;
+}
+
+.bottone{
+    display: inline-block;
     color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px 25px;
+    font-size: 2rem;
+    margin-top: 50px;
+}
+
+.bottone>i{
+    padding-right: 5px;
 }
 
 /* form */
