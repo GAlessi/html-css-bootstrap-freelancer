@@ -124,7 +124,38 @@ h1{
     width: 100%;
     height: auto;
     border-radius: 10px;
+}
+
+.copertura{
+    max-height: 260px;
     margin: 20px 0;
+
+}
+
+.overlay{
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    height: 100%;
+    max-height: 260px;
+    width: 100%;
+    max-width: 360px;
+    border-radius: 10px;
+    background-color:rgba(26, 188, 156, 0.9);
+}
+
+.overlay i{
+    color: white;
+    font-size: 7rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.copertura:hover .overlay{
+    display: block;
 }
 
 /* informazioni */
